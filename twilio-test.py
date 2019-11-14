@@ -6,8 +6,8 @@ from twilio.rest import Client
 # account_sid = 'AC7d1ea4eb9f312033d47702203e96f29c'
 # auth_token = '759ff7129455a0a46147c9367cef3993'
 
-account_sid = 'ACeef6bd5f15f788d0c8d22db948688231'
-auth_token = 'd9e246487a156ed1f64399ce534478d1'
+account_sid = ''
+auth_token = ''
 client = Client(account_sid, auth_token)
 
 message = client.messages \
